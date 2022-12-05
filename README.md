@@ -1,6 +1,6 @@
 # linebreak-android
 
-> `linebreak-android` based on [libunibreak](https://github.com/adah1972/)
+> `linebreak-android` based on [libunibreak](https://github.com/adah1972/libunibreak)
 
 ## How to look ?
 
