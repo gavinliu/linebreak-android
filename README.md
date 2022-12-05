@@ -1,6 +1,6 @@
 # linebreak-android
 
-[![](https://jitpack.io/v/gavinliu/linebreak-android.svg)](https://jitpack.io/#gavinliu/linebreak-android)
+[![](https://jitpack.io/v/cn.gavinliu/linebreak-android.svg)](https://jitpack.io/#cn.gavinliu/linebreak-android)
 
 > `linebreak-android` based on [libunibreak](https://github.com/adah1972/libunibreak)
 
@@ -25,7 +25,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.gavinliu:linebreak-android:x.y.z'
+    implementation 'cn.gavinliu:linebreak-android:x.y.z'
 }
 ```
 
