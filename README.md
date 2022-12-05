@@ -1,3 +1,9 @@
 # linebreak-android
 
-<img src='https://github.com/gavinliu/linebreak-android/raw/master/art/screenshot.png' width=50% />
+> `linebreak-android` based on [libunibreak](https://github.com/adah1972/)
+
+## How to look ?
+
+| Screenshot               | Screenshot               | Screenshot               |
+| ------------------------ | ------------------------ | ------------------------ |
+| ![](art/screenshot1.png) | ![](art/screenshot1.png) | ![](art/screenshot1.png) |
