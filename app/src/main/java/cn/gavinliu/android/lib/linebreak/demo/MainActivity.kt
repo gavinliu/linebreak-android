@@ -24,12 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
 
-        binding.tvText.text.toString().lineBreak()
-
-        val text = "Emojis joined by ZWJs should not be broken: 👨🏻‍💻.「你看過《三國演義》嗎？」他問我。"
-        LineBreaker.lineBreak(text).forEach { Log.d("XX", it) }
-
-        binding.rvResult.adapter = ResultAdapter(LineBreaker.lineBreak(text))
+        binding.rvResult.adapter = ResultAdapter(binding.tvText.text.toString().lineBreak())
     }
 
 }
