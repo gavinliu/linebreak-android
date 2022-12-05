@@ -7,7 +7,7 @@ add_library(
 
         SHARED
 
-        linebreak.c
+        LineBreaker.cpp
 
         libunibreak/linebreak.c
         libunibreak/linebreakdata.c
@@ -21,5 +21,4 @@ add_library(
 
 target_link_libraries(
         linebreak
-
 )

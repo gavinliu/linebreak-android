@@ -32,7 +32,7 @@
  * @author  Wu Yongwei
  */
 
-#include "linebreak.h"
+#include "LineBreaker.h"
 #include "linebreakdef.h"
 
 /**

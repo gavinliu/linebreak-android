@@ -52,7 +52,7 @@
 #include <assert.h>
 #include <stddef.h>
 #include <string.h>
-#include "linebreak.h"
+#include "LineBreaker.h"
 #include "linebreakdef.h"
 
 /**
