@@ -6,9 +6,9 @@
 
 ## How to look ?
 
-| Screenshot               | Screenshot               | Screenshot               |
-| ------------------------ | ------------------------ | ------------------------ |
-| ![](art/screenshot1.png) | ![](art/screenshot1.png) | ![](art/screenshot1.png) |
+| Screenshot                              | Screenshot               | Screenshot               |
+|-----------------------------------------| ------------------------ | ------------------------ |
+| ![](art/Screenshot_20240720_164122.png) | ![](art/Screenshot_20240720_164155.png) | ![](art/Screenshot_20240720_164316.png) |
 
 ## How to use ?
 
