@@ -6,7 +6,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ResultAdapter(private val data: List<String>) : RecyclerView.Adapter<ResultAdapter.ViewHolder>() {
+class ResultAdapter : RecyclerView.Adapter<ResultAdapter.ViewHolder>() {
+
+    companion object {
+        const val TEXT_SIZE_MIN = 16f
+    }
+
+    var data: List<String> = emptyList()
+    var textSize: Float = TEXT_SIZE_MIN
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_result, parent, false)
@@ -15,6 +22,11 @@ class ResultAdapter(private val data: List<String>) : RecyclerView.Adapter<Resul
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        if (textSize < TEXT_SIZE_MIN) {
+            textSize = TEXT_SIZE_MIN
+        }
+
+        holder.textView.textSize = textSize
         holder.textView.text = data[position]
     }
 
